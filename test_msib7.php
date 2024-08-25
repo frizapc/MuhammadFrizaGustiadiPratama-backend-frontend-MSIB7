@@ -1,4 +1,5 @@
 
+
 <body style="background-color: black; color:white; font-size:large">
     
 </body>
@@ -20,9 +21,8 @@ function menghitungDiagonal($matriks){
     }
 
     if($n % 2 !==0){
-        $diagonalSekunder -= $matriks[$n/2][$n/2];
+        $diagonalSekunder -= $matriks[$n/2  -0.5][$n/2  -0.5];
     }
-
     
     echo $diagonalUtama ;
     echo $diagonalSekunder;
